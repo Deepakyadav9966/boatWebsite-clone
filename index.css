@@ -125,11 +125,75 @@ i {
     line-height: 8px;
     font-weight:bold;
 }
-
 .sellers-div i {
     margin-left:5px;
+}
+.cards-container {
+    display: flex;
+    gap:20px;
+}
+.card {
+    border-width:1px solid black;
 }
 .card-image {
     height:320px;
     width:320px;
+    border-top-left-radius:10px;
+    border-top-right-radius: 10px;
+    position:relative;
+}
+.hours-div {
+    position: relative;
+    background-color:#FCC50B;
+    height:26px;
+    width:225px;
+    padding:6px 10px;
+    /* top:305px; */
+    bottom:15px;
+    left:48px;
+    right:48px;
+    border-radius:20px;
+    border-width:1px;
+    border-color:#ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight:bold;
+    font-size:12px;
+}
+.card h1 {
+    /* color:#F4F5F7; */
+    color:#000000;
+    font-size:20px;
+    margin-top:10px;
+}
+.details-div {
+    padding: 10px;
+}
+.price-div {
+    display: flex;
+    margin-top:20px;
+}
+.price-div .price {
+    color: #000000;
+    font-weight:bold;
+    margin-right:5px;
+}
+.price-div .oldprice {
+    margin-right:5px;
+    text-decoration:line-through;
+    opacity:0.5;
+}
+.price-div .discount {
+    color:#12B985;
+    font-weight: bold;
+}
+.card-button {
+    display: block;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px;
+    margin-top:20px;
+    width:100%;
+    border-radius:10px;
 }

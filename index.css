@@ -15,6 +15,7 @@
     position: fixed;
     /* box-shadow: 1px 1px black; */
     width: 100%;
+    z-index:10;
 }
 .nav-logo {
     height:35px;
@@ -40,8 +41,8 @@
 .search-section {
     background-color:#F4F5F7;
     padding:10px;
-    width:20%;
-    border-radius:10px;
+    width:30%;
+    border-radius:30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -61,7 +62,7 @@ i {
 .Earboards-section {
     background-color: rgb(234, 254, 254);
     padding:50px 40px 10px 40px;
-    height: 100vh;
+    height: 100%;
 }
 .container {
     display: flex;
@@ -196,4 +197,13 @@ i {
     margin-top:20px;
     width:100%;
     border-radius:10px;
+}
+.watches-section {
+    position:absolute;
+    background-color: rgb(234, 254, 254);
+    padding:50px 40px 10px 40px;
+    height: 100%;
+}
+.watches-section .first-section {
+    text-align: end;
 }

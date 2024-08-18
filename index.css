@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Metrophobic", sans-serif;
     /* outline: auto; */
+    scroll-behavior: smooth;
 }
 .nav-container {
     background-color:white;
@@ -80,7 +81,9 @@ i {
     font-family:"Metrophobic";
 }
 .image {
+    min-height: 400px;
     max-height:550px;
+    min-width: 600px;
     max-width:700px;
 }
 .para {
@@ -134,7 +137,7 @@ i {
     gap:20px;
 }
 .card {
-    border-width:1px solid black;
+    
 }
 .card-image {
     height:320px;
@@ -179,6 +182,7 @@ i {
     color: #000000;
     font-weight:bold;
     margin-right:5px;
+    font-size:25px;
 }
 .price-div .oldprice {
     margin-right:5px;
@@ -199,11 +203,31 @@ i {
     border-radius:10px;
 }
 .watches-section {
-    position:absolute;
-    background-color: rgb(234, 254, 254);
     padding:50px 40px 10px 40px;
+    position:relative;
+    background-image:linear-gradient(#ffffff, rgb(230, 214, 151));
     height: 100%;
 }
 .watches-section .first-section {
+    text-align: end;
+}
+.neckbands-section {
+    padding:50px 40px 10px 40px;
+    position:relative;
+    background-image:linear-gradient(#ffffff, rgb(154, 195, 236));
+    height: 100%;
+}
+
+.headphones-section {
+    padding:50px 40px 10px 40px;
+    position:relative;
+    background-image:linear-gradient(#ffffff, rgb(222, 240, 255));
+    height: 100%;
+}
+/* .headphones-section .image{
+    width:500px;
+} */
+
+.headphones-section .first-section {
     text-align: end;
 }

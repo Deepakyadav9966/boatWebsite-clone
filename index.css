@@ -1,0 +1,135 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Metrophobic", sans-serif;
+    /* outline: auto; */
+}
+.nav-container {
+    background-color:white;
+    height:70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem;
+    position: fixed;
+    /* box-shadow: 1px 1px black; */
+    width: 100%;
+}
+.nav-logo {
+    height:35px;
+    width:90px;
+    opacity:10;
+}
+.nav-link {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.nav-link a {
+    text-decoration: none;
+    color:#000000;
+    font-family:"Metrophobic";
+    margin-right:20px;
+    font-size:16px;
+}
+.nav-link a:hover {
+    font-weight: 700;
+    border-bottom:1px solid red;
+}
+.search-section {
+    background-color:#F4F5F7;
+    padding:10px;
+    width:20%;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+i {
+    margin-right:10px;
+}
+.input-search {
+    outline: none;
+    border:0;
+    background-color: transparent;
+    width:90%;
+}
+
+/* Wireless Ear Boards Section */
+
+.Earboards-section {
+    background-color: rgb(234, 254, 254);
+    padding:50px 40px 10px 40px;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.heading {
+    font-size:84px;
+    font-weight: 100;
+    font-family:"Metrophobic";
+}
+.sub-heading {
+    font-size: 84px;
+    font-weight: 600;
+    font-family:"Metrophobic";
+}
+.image {
+    max-height:550px;
+    max-width:700px;
+}
+.para {
+    color:#1A2024;
+    line-height:40px;
+    font-size:40px;
+    margin: 20px 0px;
+}
+.para .span {
+    font-weight:600;
+}
+.button {
+    background-color:#000000;
+    color:#ffffff;
+    padding:0.75rem;
+    font-size:14px;
+    font-weight:700;
+    line-height: 10px;
+    border-radius:1rem;
+}
+.button i {
+    margin-left:5px;
+}
+.sellers-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+.sellers-div h1 {
+    display: inline;
+    opacity:0.7;
+}
+.seller-span {
+    font-size:35px;
+    font-weight:1000;
+    color:#000000;
+    opacity:1;
+}
+.sellers-div p {
+    color:#2f5b96;
+    font-size:12px;
+    line-height: 8px;
+    font-weight:bold;
+}
+
+.sellers-div i {
+    margin-left:5px;
+}
+.card-image {
+    height:320px;
+    width:320px;
+}

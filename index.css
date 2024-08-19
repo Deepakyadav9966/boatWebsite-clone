@@ -135,9 +135,7 @@ i {
 .cards-container {
     display: flex;
     gap:20px;
-}
-.card {
-    
+    overflow-x: auto;
 }
 .card-image {
     height:320px;
@@ -166,13 +164,13 @@ i {
     font-size:12px;
 }
 .card h1 {
-    /* color:#F4F5F7; */
     color:#000000;
     font-size:20px;
     margin-top:10px;
 }
 .details-div {
     padding: 10px;
+    /* border:1px solid black; */
 }
 .price-div {
     display: flex;

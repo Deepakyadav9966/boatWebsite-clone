@@ -42,7 +42,7 @@
 .search-section {
     background-color:#F4F5F7;
     padding:10px;
-    width:30%;
+    width:25%;
     border-radius:30px;
     display: flex;
     justify-content: center;
@@ -182,7 +182,6 @@ i {
     color: #000000;
     font-weight:bold;
     margin-right:5px;
-    font-size:25px;
 }
 .price-div .oldprice {
     margin-right:5px;
@@ -224,10 +223,24 @@ i {
     background-image:linear-gradient(#ffffff, rgb(222, 240, 255));
     height: 100%;
 }
-/* .headphones-section .image{
-    width:500px;
-} */
-
 .headphones-section .first-section {
     text-align: end;
+}
+.WirelessSpeakers-section {
+    padding:50px 40px 10px 40px;
+    position:relative;
+    background-image:linear-gradient(#ffffff, rgb(204, 233, 221));
+    height: 100%;
+}
+.partySpeakers-section {
+    padding:50px 40px 10px 40px;
+    position:relative;
+    background-image:linear-gradient(#ffffff, rgb(254, 229, 230));
+    height: 100%;
+}
+.Soundbar-section {
+    padding:50px 40px 10px 40px;
+    position:relative;
+    background-image:linear-gradient(#ffffff, rgb(230, 235, 222));
+    height: 100%;
 }
